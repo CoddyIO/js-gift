@@ -1,0 +1,113 @@
+.container{
+    padding: 5VW;
+    background-color: pink;
+}
+.heart{
+    position: absolute;
+    right:320px;
+    top: -70px;
+    height: 700px;
+    
+}
+.first{
+    position: absolute;
+    top: 2vw;
+    right: 6vw;
+    font-size: xx-large;
+    color: magenta;
+    font-family: fantasy;
+    
+}
+.name{
+    
+    padding-left: 30vw;
+    padding-bottom: 5vw;
+    border-radius: 25px;
+    backdrop-filter: blur(20px);
+    position: absolute;
+    top: 12vw;
+    right: 35vw;
+}
+.button1{
+    position:absolute ;
+    right: 20vw;
+    top: 6vw;
+    border-radius: 1vw;
+    background-color: white;
+    padding: 4px;
+    padding-bottom: 1px;
+    box-shadow: 2px 2px 50px 10px  pink;
+    border: 2px solid black;
+    
+
+
+}
+.button2{
+    position:absolute ;
+    right: 5vw;
+    top: 6vw;
+
+    border-radius: 1vw;
+    background-color: white;
+    padding: 4px;
+    padding-bottom: 1px;
+    box-shadow: 2px 2px 50px 10px  pink;
+    border: 2px solid black;
+
+}
+.blue{
+    color: pink;
+    padding: 2%;
+    background-color:#90EE90;
+    
+    animation: fadein 1s steps(60) 1;
+}
+@keyframes fadein {
+    0%{
+        color: black;
+        padding: 0%;
+    }
+    100%{
+        color: pink;
+        padding: 2%;
+    }
+    
+}
+.color{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    right: 8vw;
+    
+    animation: change 1s steps(60) 1;
+}
+@keyframes change {
+    0%{
+        color: magenta;
+        
+    }
+    100%{
+        color: black;
+        
+    }
+    
+}
+.color1{
+    color:  rgb(61, 46, 46);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    right: 12vw;
+    animation: change1 1s steps(60) 1;
+}
+@keyframes change1 {
+    0%{
+        color: magenta;
+        
+    }
+    100%{
+        color: rgb(61, 46, 46);
+        position: absolute;
+        right: 12vw;
+    }
+    
+}
